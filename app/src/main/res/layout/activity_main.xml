@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btm_nav_shape"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="15dp"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:id="@+id/recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@drawable/circle_background"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/recommendIMG"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/ic_outline_favorite_border_24_selected"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/places"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/placesIMG"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/ic_outline_map_24"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itenarary"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@@android:color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/itenararyIMG"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_calendar_today_24"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/document"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:background="@@android:color/transparent"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/documentIMG"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:src="@drawable/ic_outline_checklist_24"></ImageView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

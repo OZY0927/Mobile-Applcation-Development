@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Group_Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SUPABASE_KEY">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5pb2ZwcmxlaWl2c2FlaG9yc2pyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM5NzkxMjEsImV4cCI6MjAwOTU1NTEyMX0.qjWI2Px8T1MCowUNvaVx2Uv5vaPQe4GJasrNO2Kw_sI</string>
+</resources>
